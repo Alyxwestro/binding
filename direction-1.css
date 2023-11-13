@@ -51,12 +51,3 @@ p{
    margin-top: var(--baseline);
 }
 
-::-webkit-scrollbar {
-    background-color: #FFBDE0;
-    width: 50px;
-    height: 2px;
-}
-::-webkit-scrollbar-thumb {
-    background-color: #D0F8B5;
-    
-}
