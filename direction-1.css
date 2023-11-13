@@ -1,3 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Gabarito:wght@400;500;600;700;800;900&family=Shippori+Mincho:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
 :root{
-    --font-display:'Comic Sans MS';
+    --font-display:'Manrope', sans-serif;
+    --typography--header:'Taviraj', serif;
+    --typography--h1:'Gabarito', sans-serif;
+    --typography--h2:'Cormorant', serif;
+    --typography--h3:'Shippori+Mincho', serif;
+    --typography--aside:'DM+Mono', monospace;
+
+    --spacing: 20px;
+    --font-size: 14px;
+    --scale: 2;
+    --baseline: 24px;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+header{
+    font-size: calc(6* var(--font-size));  
+    font-weight: 100;
+    letter-spacing: -1.2rem;  
+    border-bottom: groove;
+}
+
+aside{
+    border-bottom: groove;
+    margin-top: var(--spacing);
+    margin-bottom: var(--spacing);
+    padding-bottom: var(--spacing);
+
+}
+
+section{
+    border-style: groove;
+    justify-content: center;
+    margin-top: var(--spacing);
+    margin-bottom: var(--spacing);
+    padding-top: var(--spacing);
+    padding-bottom: calc(var(--spacing)-10px);
+    text-align: center;
+}
+
+p{
+   line-height: var(--baseline);
+   margin-bottom: var(--baseline);   
+   margin-top: var(--baseline);
+}
+
+::-webkit-scrollbar {
+    background-color: #FFBDE0;
+    width: 50px;
+    height: 2px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #D0F8B5;
+    
 }
