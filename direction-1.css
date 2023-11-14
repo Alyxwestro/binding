@@ -16,38 +16,29 @@
     --baseline: 24px;
 }
 
-html {
-    overflow-y: scroll;
-}
-
 header{
     font-size: calc(6* var(--font-size));  
     font-weight: 100;
     letter-spacing: -1.2rem;  
     border-bottom: groove;
+    line-height: calc(var(--baseline) * 4/1 );
 }
 
-aside{
-    border-bottom: groove;
-    margin-top: var(--spacing);
-    margin-bottom: var(--spacing);
-    padding-bottom: var(--spacing);
-
+div{
+ border-bottom: groove;
+ padding: calc(1/7*var(--baseline));
+ font-size: calc(2/3 * var(--font-size));
 }
 
 section{
     border-style: groove;
     justify-content: center;
-    margin-top: var(--spacing);
-    margin-bottom: var(--spacing);
-    padding-top: var(--spacing);
-    padding-bottom: calc(var(--spacing)-10px);
+    margin-top: calc(1/2*var(--spacing));
+    margin-bottom: calc(1/2*var(--spacing));
+    padding-top: calc(3*var(--spacing));
+    padding-bottom: calc(3*var(--spacing));
     text-align: center;
 }
 
-p{
-   line-height: var(--baseline);
-   margin-bottom: var(--baseline);   
-   margin-top: var(--baseline);
-}
+
 

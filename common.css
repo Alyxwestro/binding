@@ -32,6 +32,7 @@ h3{
 h4{
     font-family: var(--font-display);
 }
+
 body{
     font-family: var(--font-display);
 }
@@ -41,3 +42,7 @@ blockquote{
     font-weight: 500;
 }
 
+p{
+    line-height: var(--baseline);
+ }
+ 
