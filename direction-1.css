@@ -17,7 +17,7 @@
 }
 
 header{
-    font-size: calc(6* var(--font-size));  
+    font-size: calc(5* var(--font-size));  
     font-weight: 100;
     letter-spacing: -1.2rem;  
     border-bottom: groove;
@@ -26,8 +26,8 @@ header{
 
 div{
  border-bottom: groove;
- padding: calc(1/7*var(--baseline));
- font-size: calc(2/3 * var(--font-size));
+ padding: calc(1/8*var(--baseline));
+ font-size: calc(2/3*var(--font-size));
 }
 
 section{

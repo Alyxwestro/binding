@@ -13,7 +13,6 @@ aside{
 }
 
 h1,h2,h3{
-    margin-bottom: var(--spacing);
     font-size: calc(var(--scale) * var(--font-size));
 }
 
@@ -32,7 +31,8 @@ h3{
 h4{
     font-family: var(--font-display);
     font-size: var(--font-size);
-    margin-bottom: var(--spacing);
+    margin-bottom: calc(2* var(--spacing));
+    font-weight: 600;
 }
 
 body{
@@ -41,7 +41,7 @@ body{
 
 blockquote{
     font-family: var(--font-display);
-    font-weight: 500;
+    font-weight: 600;
     font-size: var(--font-size);
     margin-bottom: var(--spacing);
 }
@@ -53,7 +53,8 @@ p{
  }
  
  .title{
-    font-size: calc(3*var(--font-size));
+    margin-top: calc(2*var(--spacing));
+    font-size: calc(2.6*var(--font-size));
  }
 
  .article-1{
