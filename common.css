@@ -1,6 +1,6 @@
 body{
     padding: 10px;
-    max-width: 100%;
+    max-width:100%
 }
 
 header{
@@ -31,6 +31,8 @@ h3{
 
 h4{
     font-family: var(--font-display);
+    font-size: var(--font-size);
+    margin-bottom: var(--spacing);
 }
 
 body{
@@ -44,5 +46,14 @@ blockquote{
 
 p{
     line-height: var(--baseline);
+    font-size: var(--font-size);
+    margin-bottom: var(--spacing);
  }
  
+ .title{
+    font-size: calc(3*var(--font-size));
+ }
+
+ .article-1{
+    max-width: 75em;
+ }
