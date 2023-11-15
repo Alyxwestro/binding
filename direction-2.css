@@ -34,10 +34,9 @@ span{
 
 .grid{
     rotate: -90deg;
-    position: fixed;
-    /* background-color: aqua; */
-    bottom: 200px;
-    right: -100px;
+    position: relative;
+    top: 300px;
+    left: 85px;
 }
 
 section:nth-child(1), 
@@ -51,4 +50,6 @@ section:nth-child(3){
  
 footer{
     position: relative;
+    border-top: groove;
+    
 }
