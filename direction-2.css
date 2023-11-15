@@ -50,6 +50,6 @@ section:nth-child(3){
  
 footer{
     position: relative;
-    border-top: groove;
-    
+    border-top: dotted;
+    top: 400px; 
 }

@@ -52,6 +52,11 @@ p{
     margin-bottom: var(--spacing);
  }
  
+ footer{
+    font-family: var(--typography--aside);
+    font-size: calc(2/3*var(--font-size));
+ }
+
  .title{
     margin-top: calc(2*var(--spacing));
     font-size: calc(2.6*var(--font-size));
