@@ -1,1 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+:root{
+    --font-display:'Work+Sans', sans-serif;
+    --typography--header:'Archivo Black', sans-serif;
+    --typography--h1:'Cormorant', serif;
+    --typography--h2:'Cormorant', serif;
+    --typography--h3:'Cormorant', serif;
+    --typography--aside:'Work+Sans', sans-serif;
+
+    --spacing: 20px;
+    --font-size: 18px;
+    --scale: 2;
+    --baseline: 24px;
+
+    background-color: #E6E6E6;
+   
+}
+
+header{
+    font-size: var(--font-size);
+}
+
+aside{
+    font-size: calc(2/3*var(--font-size));
+    max-width: 13em;
+    margin-top: 10px;
+}
+
+div{
+    margin-bottom: 5px;;
+}
+
+.grid{
+   margin-top: 20px;
+
+   
+}
+
