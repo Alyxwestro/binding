@@ -42,6 +42,8 @@ body{
 blockquote{
     font-family: var(--font-display);
     font-weight: 500;
+    font-size: var(--font-size);
+    margin-bottom: var(--spacing);
 }
 
 p{
@@ -55,5 +57,13 @@ p{
  }
 
  .article-1{
+    max-width: 75em;
+ }
+
+ .article-2{
+    max-width: 75em;
+ }
+
+ .article-3{
     max-width: 75em;
  }
