@@ -1,1 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
+
+:root{
+    --font-display:'Work+Sans', sans-serif;
+    --typography--header:'Playfair Display', serif;    ;
+    --typography--h1:'Roboto', sans-serif;
+    --typography--h2:'Roboto', sans-serif;
+    --typography--h3:'Roboto', sans-serif;
+    --typography--aside:'Work+Sans', sans-serif;
+
+    --spacing: 20px;
+    --font-size: 18px;
+    --scale: 2;
+    --baseline: 24px;
+}
+
+header{
+    text-align: left;
+    margin: calc(1/2*var(--spacing));
+}
+
+aside{
+    text-align: left;
+    max-width: 10em;
+    margin: calc(1/2*var(--spacing));
+}
+
+span{
+    font-family: 'Raleway Dots', sans-serif;
+}
+
+.grid{
+    rotate: -90deg;
+    position: fixed;
+    background-color: aqua;
+    bottom: 150px;
+    justify-content: last baseline;
+    margin-bottom: 0%;
+
+    
+}
+
+section:nth-child(1), 
+section:nth-child(2)
+section:nth-child(3){
+    display:flex;
+    flex-direction: column;
+    margin-bottom: calc(1/2*var(--spacing));
+    margin-top: var(--spacing);
+}
+ 
+footer{
+    position: relative;
+
+}

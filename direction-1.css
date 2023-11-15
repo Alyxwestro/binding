@@ -22,6 +22,7 @@ header{
     letter-spacing: -1.2rem;  
     border-bottom: groove;
     line-height: calc(var(--baseline) * 4/1 );
+    text-align: center;
 }
 
 div{
