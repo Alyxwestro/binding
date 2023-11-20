@@ -5,10 +5,12 @@ body{
 
 header{
     font-family:var(--typography--header);
+    font-weight: 100;
 }
 
 aside{
-    font-family:var(--typography--aside);
+    font-family:var(--typography--header);
+    font-weight: 200;
 }
 
 h1,h2,h3{
@@ -61,14 +63,12 @@ p{
     font-size: calc(2.6*var(--font-size));
  }
 
- .article-1{
+ .article{
     max-width: 75em;
  }
 
- .article-2{
-    max-width: 75em;
- }
-
- .article-3{
-    max-width: 75em;
- }
+h6{
+    line-height: var(--baseline);
+    font-size: var(--font-size);
+    margin-bottom: var(--spacing);
+}
