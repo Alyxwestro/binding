@@ -63,8 +63,8 @@ span{
     .grid{
         rotate: -90deg;
         position: fixed;
-        bottom: 16rem;
-        right: -10.5rem;
+        bottom: 15rem;
+        right: -13rem;
         margin-bottom: 10px;
     }
 
@@ -84,8 +84,8 @@ span{
     .grid{
         rotate: -90deg;
         position: fixed;
-        bottom: 19rem;
-        right: -10.5rem;
+        bottom: 17rem;
+        right: -14rem;
         margin-bottom: 10px;
     }
 }
