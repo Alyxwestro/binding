@@ -1,6 +1,8 @@
 body{
     padding: 10px;
-    max-width:100%
+    max-width:100%;
+    background: linear-gradient(to left, #ffffff, #e7e7e7ba, #ffffff, #dadada, #ffffff),
+                linear-gradient(to top, transparent 20%, rgba(226, 226, 226, 0.62), #ffffff5f);
 }
 
 header{
@@ -71,4 +73,11 @@ h6{
     line-height: var(--baseline);
     font-size: var(--font-size);
     margin-bottom: var(--spacing);
+}
+
+
+h7{
+    font-family: var(--typography--header);
+    font-weight: 200;
+    opacity: 1%;
 }

@@ -45,10 +45,7 @@ span{
     margin-bottom: 10px;
 }
 
-/* Mobile Max version */
-@media (min-width: 430px){
 
-}
 
 @media (min-width: 599px){
 
@@ -88,6 +85,7 @@ span{
         right: -14rem;
         margin-bottom: 10px;
     }
+
 }
 
 /* Desktop Version */
@@ -97,6 +95,17 @@ span{
 
 }
 
+/* Background typo decoration */
+.background-typo{
+    font-size: calc(20*var(--font-size));
+    letter-spacing: -7rem;
+}
+
+@media (hover: hover){
+    .background-typo:hover{
+        transform: translate(120px, 50%);
+    }
+}
 
 footer{
     position: absolute;
