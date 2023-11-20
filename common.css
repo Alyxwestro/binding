@@ -61,12 +61,14 @@ p{
  }
 
  .title{
-    margin-top: calc(2*var(--spacing));
+    margin-top: calc(-2*var(--spacing));
     font-size: calc(2.6*var(--font-size));
+    font-weight: 500;
  }
 
  .article{
-    max-width: 75em;
+    max-width: 70em;
+    margin: calc(1/2*var(--spacing));
  }
 
 h6{

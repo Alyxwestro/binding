@@ -23,10 +23,6 @@ header{
     font-size: calc(1.2*var(--font-size)); 
 }
 
- header a:hover {
-    font-style: italic;
-}
-
 aside{
     padding-left: 8.5rem;
     position: relative;
@@ -35,6 +31,11 @@ aside{
 
 span{
     font-family: 'Raleway Dots', sans-serif;
+}
+
+span:hover{
+    font-style: italic;
+    color: #1cb0ff;
 }
 
 .grid{
@@ -46,7 +47,7 @@ span{
 }
 
 
-
+/* Mobile to Pad middle screen Version */
 @media (min-width: 599px){
 
     h1,h2,h3{
@@ -91,7 +92,22 @@ span{
 /* Desktop Version */
 @media (min-width: 1024px){
 
-    
+    h1,h2,h3{
+        font-size: calc(3.2*var(--font-size));
+    }
+
+    h6{
+        font-size: calc(1.6*var(--font-size));
+    }
+
+    .grid{
+        rotate: -90deg;
+        position: fixed;
+        bottom: 21rem;
+        right: -17rem;
+        margin-bottom: 10px;
+    }
+
 
 }
 
@@ -103,10 +119,12 @@ span{
 
 @media (hover: hover){
     .background-typo:hover{
-        transform: translate(120px, 50%);
+        transform: translate(120px);
+        letter-spacing: 3rem;
     }
 }
 
+/* Footer */
 footer{
     position: absolute;
     bottom: 0px;
