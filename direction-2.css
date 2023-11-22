@@ -26,17 +26,28 @@ header{
 aside{
     padding-left: 8.5rem;
     position: relative;
-    top: -2.55rem;
+    top: -2.52rem;
 }
 
 span{
     font-family: 'Raleway Dots', sans-serif;
 }
 
-span:hover{
+.color-1:hover{
     font-style: italic;
     color: #1cb0ff;
 }
+
+.color-2:hover{
+    font-style: italic;
+    color: #033576;
+}
+
+.color-3:hover{
+    font-style: italic;
+    color: #CE0000;
+}
+
 
 .grid{
     rotate: -90deg;
@@ -108,21 +119,25 @@ span:hover{
         margin-bottom: 10px;
     }
 
-
-}
-
 /* Background typo decoration */
-.background-typo{
-    font-size: calc(20*var(--font-size));
-    letter-spacing: -7rem;
+    .background-typo{
+        font-size: calc(20*var(--font-size));
+        letter-spacing: -7rem;
+    }
+    
+    @media (hover: hover){
+        .background-typo:hover{
+            transform: translate(120px);
+            letter-spacing: 3rem;
+        }
+    }
+
+
+
 }
 
-@media (hover: hover){
-    .background-typo:hover{
-        transform: translate(120px);
-        letter-spacing: 3rem;
-    }
-}
+
+
 
 /* Footer */
 footer{
