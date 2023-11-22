@@ -16,6 +16,7 @@
     --baseline: 26px;
 
     --inset--left: 0.15em;
+    --indent: -1em;
 }
 
 header{
