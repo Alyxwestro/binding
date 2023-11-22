@@ -200,6 +200,8 @@ span{
         .background-typo:hover{
             transform: translate(120px);
             letter-spacing: 3rem;
+            height: 700px;
+            overflow: hidden;
         }
     }
 }
