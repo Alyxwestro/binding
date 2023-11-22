@@ -108,14 +108,15 @@ h7{
 
 /* Information Page */
 .information{
-    margin: calc(1/2*var(--spacing));
+    margin-left: calc(0.7*var(--spacing));
+    margin-right: calc(0.7*var(--spacing));
 }
 
 .introduction{
     margin-bottom: calc(2.4*var(--spacing));
 }
 
-h8{
+h8,h9{
     font-family: var(--font-display);
     font-size: var(--font-size);
 }
@@ -126,6 +127,7 @@ h8{
 }
 
 .response{
+    max-width: 40em;
     margin-top: var(--spacing);
 }
 

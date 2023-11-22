@@ -157,6 +157,21 @@ span{
 /* Desktop Version */
 @media (min-width: 1024px){
 
+/* Landing Page Background typo decoration */
+.background-typo{
+    font-size: calc(20*var(--font-size));
+    letter-spacing: -7rem;
+}
+
+@media (hover: hover){
+    .background-typo:hover{
+        transform: translate(120px);
+        letter-spacing: 3rem;
+        height: 700px;
+        overflow: hidden;
+    }
+}
+
 /* Article Pages */
     .title{
         font-size: calc(6.5*var(--font-size));
@@ -172,19 +187,27 @@ span{
         margin: calc(6.9*var(--spacing));
      }
 
-
-/* Background typo decoration */
-    .background-typo{
-        font-size: calc(20*var(--font-size));
-        letter-spacing: -7rem;
+/* Information Page */
+    .information{
+        margin-left: calc(7*var(--spacing));
     }
     
-    @media (hover: hover){
-        .background-typo:hover{
-            transform: translate(120px);
-            letter-spacing: 3rem;
-            height: 700px;
-            overflow: hidden;
-        }
+    h8,h9{
+        font-size: calc(1.2*var(--font-size));
+    }
+    
+    .contact{
+        margin-top: calc(-1.4*var(--spacing));
+        margin-left: calc(7*var(--spacing));
+        margin-bottom: calc(2.4*var(--spacing));    
+    }
+
+    h9{
+        margin-left: calc(7*var(--spacing));
+    }
+
+    .response{
+        margin-top: calc(-1.3*var(--spacing));
+        margin-left: calc(15*var(--spacing));
     }
 }
