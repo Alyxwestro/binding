@@ -157,23 +157,6 @@ span{
 /* Desktop Version */
 @media (min-width: 1024px){
 
-/* Landing Page */
-    h1,h2,h3{
-        font-size: calc(3.2*var(--font-size));
-    }
-
-    h6{
-        font-size: calc(1.6*var(--font-size));
-    }
-
-    .grid{
-        rotate: -90deg;
-        position: fixed;
-        bottom: 21rem;
-        right: -17rem;
-        margin-bottom: 10px;
-    }
-
 /* Article Pages */
     .title{
         font-size: calc(6.5*var(--font-size));
