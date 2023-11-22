@@ -32,12 +32,7 @@ h3{
     font-family:var(--typography--h3);
 }
 
-h4{
-    font-family: var(--font-display);
-    font-size: var(--font-size);
-    margin-bottom: calc(2* var(--spacing));
-    font-weight: 600;
-}
+
 
 body{
     font-family: var(--font-display);
@@ -46,14 +41,38 @@ body{
 blockquote{
     font-family: var(--font-display);
     font-weight: 600;
-    font-size: var(--font-size);
-    margin-bottom: var(--spacing);
+    font-size: calc(1.2*var(--font-size));
+    margin-bottom: calc(var(--scale)*var(--spacing));
+    margin-top: calc(var(--scale)*var(--spacing));
+    line-height: calc(1.1*var(--baseline));
 }
 
 p{
     line-height: var(--baseline);
     font-size: var(--font-size);
-    margin-bottom: var(--spacing);
+    margin-bottom: calc(1.3*var(--spacing));
+ }
+
+
+.title{
+    margin-top: calc(var(--scale)*var(--spacing));
+    margin-bottom: calc(0.3*var(--spacing));
+    font-size: calc(3.5*var(--font-size));
+    font-weight: 600;
+    line-height: calc(var(--scale)*var(--baseline));
+ }
+
+ h4{
+    font-family: var(--font-display);
+    font-size: var(--font-size);
+    margin-bottom: calc(2* var(--spacing));
+    font-weight: 600;
+    margin-left: var(--inset--left);
+}
+
+ .article{
+    max-width: 70em;
+    margin: calc(1/2*var(--spacing));
  }
  
  footer{
@@ -61,16 +80,6 @@ p{
     font-size: calc(2/3*var(--font-size));
  }
 
- .title{
-    margin-top: calc(-2*var(--spacing));
-    font-size: calc(2.6*var(--font-size));
-    font-weight: 500;
- }
-
- .article{
-    max-width: 70em;
-    margin: calc(1/2*var(--spacing));
- }
 
 h6{
     line-height: var(--baseline);
@@ -84,3 +93,4 @@ h7{
     font-weight: 200;
     opacity: 1%;
 }
+

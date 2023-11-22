@@ -13,7 +13,9 @@
     --spacing: 20px;
     --font-size: 18px;
     --scale: 2;
-    --baseline: 24px;
+    --baseline: 26px;
+
+    --inset--left: 0.15em;
 }
 
 header{
@@ -32,6 +34,8 @@ aside{
 span{
     font-family: 'Raleway Dots', sans-serif;
 }
+
+
 
 .color-1:hover{
     font-style: italic;
@@ -135,6 +139,7 @@ span{
 
 
 }
+
 
 
 
