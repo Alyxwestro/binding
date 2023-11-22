@@ -19,18 +19,18 @@
     --indent: -1em;
 }
 
-header{
+.header{
     text-align: left;
     margin: calc(1/2*var(--spacing));
     letter-spacing: -0.28rem;
     font-size: calc(1.2*var(--font-size)); 
 }
 
-aside{
+/* .aside{
     padding-left: 8.5rem;
     position: relative;
-    top: -2.6rem;
-}
+    top: -9rem;
+} */
 
 span{
     font-family: 'Raleway Dots', sans-serif;

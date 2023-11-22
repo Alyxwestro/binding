@@ -6,14 +6,16 @@ body{
     
 }
 
-header{
+.header{
     font-family:var(--typography--header);
     font-weight: 100;
 }
 
-aside{
+.aside{
     font-family:var(--typography--header);
     font-weight: 200;
+    margin-top: -2.5rem;
+    padding-left: 8.5rem;
 }
 
 h1,h2,h3{
