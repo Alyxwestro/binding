@@ -85,6 +85,10 @@ p{
  footer{
     font-family: var(--typography--aside);
     font-size: calc(2/3*var(--font-size));
+    position: absolute;
+    bottom: 0px;
+    padding-bottom: 7px;
+    text-align: left;
  }
 
 

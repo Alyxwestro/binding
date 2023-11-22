@@ -174,7 +174,6 @@ span{
         margin-bottom: 10px;
     }
 
-
 /* Article Pages */
     .title{
         font-size: calc(6.5*var(--font-size));
@@ -189,7 +188,7 @@ span{
     .article{
         margin: calc(6.9*var(--spacing));
      }
-}
+
 
 /* Background typo decoration */
     .background-typo{
@@ -203,16 +202,4 @@ span{
             letter-spacing: 3rem;
         }
     }
-
-
-
-
-
-
-/* Footer */
-footer{
-    position: absolute;
-    bottom: 0px;
-    padding-bottom: 7px;
-    text-align: left;
 }
