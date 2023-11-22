@@ -126,7 +126,6 @@ h8,h9{
 }
 
 .response{
-    max-width: 40em;
     margin-top: var(--spacing);
 }
 
