@@ -110,6 +110,7 @@ h7{
 
 /* Information Page */
 .information{
+    margin-top: calc(var(--scale)*var(--spacing));
     margin-left: calc(0.7*var(--spacing));
 }
 
