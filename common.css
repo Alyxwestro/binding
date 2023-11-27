@@ -2,10 +2,10 @@ body{
     padding-top: 10px;
     padding-right: 10px;
     padding-left: 10px;
+    padding-bottom: 7px;
     max-width:100%;
     background: linear-gradient(to left, #ffffff, #e7e7e7ba, #ffffff, #dadada, #ffffff),
                 linear-gradient(to top, transparent 20%, rgba(226, 226, 226, 0.62), #ffffff5f); 
-    
 }
 
 .header{
@@ -95,27 +95,31 @@ p{
     padding-bottom: 7px;
     text-align: left;
  }
- 
+
+ .footer{
+    position: relative;
+ }
+
  .footer-1{
     font-family: var(--typography--aside);
     font-size: calc(2/3*var(--font-size));
-    position: relative;
-    bottom:0;
-    text-align: left;
+    position: absolute;
+    padding-bottom: 7px;
     border-top-style: groove;
-    padding-top: 3.2rem;;
+    padding-top: 3.2rem;
+    text-align: left;
+    width:100%
  }
 
  .next{
     font-family: var(--typography--h1);
     font-size: var(--font-size);
-    position: relative;
+    position: absolute;
+    background-color: aqua;
     rotate: -90deg;
-    height: 5px;
-    left: 10.7rem;
-    top: -11.9rem;  
+    left: 21rem;
+    top: 1.8rem;
 }
-
 
 h6{
     line-height: var(--baseline);

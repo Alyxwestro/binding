@@ -56,13 +56,14 @@ span{
     right: -10.5rem;
     margin-bottom: 10px;
 }
+
 @media (min-width: 430px){
 
 /* Footer Adjustment */
-     .next{
-        left: 11.8rem;
-        top: -13.2rem;  
+    .next{
+        left: 23.5rem;
     }
+
 }
 
 /* Mobile to Pad middle screen Version */
@@ -87,8 +88,8 @@ span{
 
 /* Article Pages */
     .title{
-        font-size: calc(3.5*var(--font-size));
-        line-height: calc(2.3*var(--baseline));
+        font-size: calc(5*var(--font-size));
+        line-height: calc(3*var(--baseline));
      }
 
     h4{
@@ -119,9 +120,8 @@ span{
         line-height: calc(4*var(--spacing));
      }
 /* Footer Adjustment */
-     .next{
-        left: 22.4rem;
-        top: -23.5rem;  
+    .next{
+        left: 34rem;
     }
 
 /* Information Page */   
@@ -135,10 +135,10 @@ span{
 @media (min-width: 768px){
 
 /* Landing Page Background typo decoration */
-.background-typo{
-    font-size: calc(20*var(--font-size));
-    letter-spacing: -7rem;
-}
+    .background-typo{
+        font-size: calc(20*var(--font-size));
+        letter-spacing: -7rem;
+    }
 
 @media (hover: hover){
     .background-typo:hover{
@@ -168,8 +168,8 @@ span{
 
 /* Article Pages */
     .title{
-        font-size: calc(5*var(--font-size));
-        line-height: calc(3*var(--baseline));
+        font-size: calc(5.8*var(--font-size));
+        line-height: calc(3.3*var(--baseline));
      }
 
     h4{
@@ -179,11 +179,6 @@ span{
     .article{
         margin: calc(3.7*var(--spacing));
      }
-
-    blockquote{
-        font-size: calc(var(--scale)*var(--font-size));
-        line-height: calc(1.65*var(--baseline));
-    }
         
     .concept-1:hover{
         letter-spacing: 3rem;
@@ -195,6 +190,16 @@ span{
     
     .concept-3:hover{
         letter-spacing: -3rem;
+    }
+
+    .footer-1{
+        padding-top: 3.7rem;
+     }
+
+    .next{
+        font-size: calc(1.2*var(--font-size));
+        left: 44rem;
+        top: 2rem;
     }
 
 /* Information Page */       
@@ -219,22 +224,33 @@ span{
 @media (min-width: 1024px){
 
 /* Article Pages */
-.title{
-    font-size: calc(6.5*var(--font-size));
-    line-height: calc(4*var(--baseline));
-}
+    .title{
+        font-size: calc(7*var(--font-size));
+        line-height: calc(4*var(--baseline));
+    }
 
-h4{
-    font-size: calc(var(--scale)*var(--font-size));
-    font-weight: 700;
-}
+    h4{
+        font-size: calc(var(--scale)*var(--font-size));
+        font-weight: 700;
+    }
+
+  blockquote{
+        font-size: calc(var(--scale)*var(--font-size));
+        line-height: calc(1.65*var(--baseline));
+    }
+
+    /* Footer Adjustment */
+    /* .next{
+        left: 28.6rem;
+        top: -30rem;  
+    } */
 
 /* Information Page */
-.information{
-    margin-left: calc(7*var(--spacing));
-}
-.response{
-    max-width: 40em;
-}
+    .information{
+        margin-left: calc(7*var(--spacing));
+    }
+    .response{
+        max-width: 40em;
+    }
 
 }
