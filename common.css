@@ -115,9 +115,8 @@ p{
     font-family: var(--typography--h1);
     font-size: var(--font-size);
     position: absolute;
-    background-color: aqua;
     rotate: -90deg;
-    left: 21rem;
+    right: -1rem;
     top: 1.8rem;
 }
 

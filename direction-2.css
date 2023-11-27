@@ -57,15 +57,6 @@ span{
     margin-bottom: 10px;
 }
 
-@media (min-width: 430px){
-
-/* Footer Adjustment */
-    .next{
-        left: 23.5rem;
-    }
-
-}
-
 /* Mobile to Pad middle screen Version */
 @media (min-width: 599px){
 
@@ -119,10 +110,6 @@ span{
         font-size: calc(1.55*var(--font-size));
         line-height: calc(4*var(--spacing));
      }
-/* Footer Adjustment */
-    .next{
-        left: 34rem;
-    }
 
 /* Information Page */   
     h8,h9{
@@ -198,8 +185,6 @@ span{
 
     .next{
         font-size: calc(1.2*var(--font-size));
-        left: 44rem;
-        top: 2rem;
     }
 
 /* Information Page */       
@@ -238,12 +223,6 @@ span{
         font-size: calc(var(--scale)*var(--font-size));
         line-height: calc(1.65*var(--baseline));
     }
-
-    /* Footer Adjustment */
-    /* .next{
-        left: 28.6rem;
-        top: -30rem;  
-    } */
 
 /* Information Page */
     .information{
