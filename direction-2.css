@@ -123,6 +123,21 @@ span{
 /* Pad Version */
 @media (min-width: 768px){
 
+/* Landing Page Background typo decoration */
+.background-typo{
+    font-size: calc(20*var(--font-size));
+    letter-spacing: -7rem;
+}
+
+@media (hover: hover){
+    .background-typo:hover{
+        transform: translate(120px);
+        letter-spacing: 3rem;
+        height: 700px;
+        overflow: hidden;
+    }
+}
+
 /* Landing Page */
     h1,h2,h3{
         font-size: calc(2.6*var(--font-size));
@@ -159,6 +174,22 @@ span{
         line-height: calc(1.65*var(--baseline));
     }
 
+    .article{
+        margin: calc(6.9*var(--spacing));
+     }
+        
+    .concept-1:hover{
+        letter-spacing: 3rem;
+    }
+    
+    .concept-2:hover{
+        letter-spacing: -1.7rem;
+    }
+    
+    .concept-3:hover{
+        letter-spacing: -3rem;
+    }
+
 /* Information Page */       
     .contact{
         margin-top: calc(-1.4*var(--spacing));
@@ -180,21 +211,6 @@ span{
 /* Desktop Version */
 @media (min-width: 1024px){
 
-/* Landing Page Background typo decoration */
-.background-typo{
-    font-size: calc(20*var(--font-size));
-    letter-spacing: -7rem;
-}
-
-@media (hover: hover){
-    .background-typo:hover{
-        transform: translate(120px);
-        letter-spacing: 3rem;
-        height: 700px;
-        overflow: hidden;
-    }
-}
-
 /* Article Pages */
 .title{
     font-size: calc(6.5*var(--font-size));
@@ -205,23 +221,6 @@ h4{
     font-size: calc(var(--scale)*var(--font-size));
     font-weight: 700;
 }
-   
-.article{
-    margin: calc(6.9*var(--spacing));
- }
-    
-.concept-1:hover{
-    letter-spacing: 3rem;
-}
-
-.concept-2:hover{
-    letter-spacing: -1.7rem;
-}
-
-.concept-3:hover{
-    letter-spacing: -3rem;
-}
-
 
 /* Information Page */
 .information{
