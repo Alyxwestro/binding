@@ -133,3 +133,16 @@ h8,h9{
     margin-top: var(--spacing);
 }
 
+.next{
+    font-family: var(--typography--h1);
+    font-size: var(--font-size);
+    position: relative;
+    rotate: -90deg;
+    height: 5px;
+    left: 10rem;
+    top: -13.5rem;  
+}
+
+.sticky{
+    position: sticky;  
+}
