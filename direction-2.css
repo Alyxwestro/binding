@@ -120,8 +120,8 @@ span{
      }
 /* Footer Adjustment */
      .next{
-        left: 11.8rem;
-        top: -13.2rem;  
+        left: 22.4rem;
+        top: -23.5rem;  
     }
 
 /* Information Page */   
@@ -129,7 +129,6 @@ span{
         font-size: calc(1.2*var(--font-size));
     }
 
-    
 }
 
 /* Pad Version */
@@ -185,10 +184,6 @@ span{
         font-size: calc(var(--scale)*var(--font-size));
         line-height: calc(1.65*var(--baseline));
     }
-
-    .article{
-        margin: calc(6.9*var(--spacing));
-     }
         
     .concept-1:hover{
         letter-spacing: 3rem;
