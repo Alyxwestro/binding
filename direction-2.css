@@ -56,7 +56,14 @@ span{
     right: -10.5rem;
     margin-bottom: 10px;
 }
+@media (min-width: 430px){
 
+/* Footer Adjustment */
+     .next{
+        left: 11.8rem;
+        top: -13.2rem;  
+    }
+}
 
 /* Mobile to Pad middle screen Version */
 @media (min-width: 599px){
@@ -111,6 +118,11 @@ span{
         font-size: calc(1.55*var(--font-size));
         line-height: calc(4*var(--spacing));
      }
+/* Footer Adjustment */
+     .next{
+        left: 11.8rem;
+        top: -13.2rem;  
+    }
 
 /* Information Page */   
     h8,h9{
