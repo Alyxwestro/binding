@@ -57,6 +57,7 @@ span{
     margin-bottom: 10px;
 }
 
+
 /* Mobile to Pad middle screen Version */
 @media (min-width: 599px){
 
@@ -213,6 +214,10 @@ span{
         font-size: calc(7*var(--font-size));
         line-height: calc(4*var(--baseline));
     }
+
+    .article{
+        margin: calc(6.9*var(--spacing));
+     }
 
     h4{
         font-size: calc(var(--scale)*var(--font-size));
