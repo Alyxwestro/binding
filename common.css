@@ -37,10 +37,9 @@ h3{
     font-family:var(--typography--h3);
 }
 
-
-body{
+/* body{
     font-family: var(--font-display);
-}
+} */
 
 blockquote{
     font-family: var(--font-display);
@@ -86,6 +85,7 @@ p {
  .article{
     max-width: 50em;
     margin: calc(1/2*var(--spacing));
+    font-family: var(--font-display);
  }
 
  footer{
@@ -144,6 +144,7 @@ h7{
 .information{
     margin-top: calc(var(--scale)*var(--spacing));
     margin-left: calc(0.7*var(--spacing));
+    font-family: var(--font-display);
 }
 
 .introduction{
