@@ -119,15 +119,11 @@ span{
         font-weight: 400;
     }
 
-    ol{
-        padding-bottom: calc(1.6*var(--spacing));
-    }
-
 /* Information Page */   
     h8,h9{
         font-size: calc(1.2*var(--font-size));
     }
-
+    
 }
 
 /* Pad Version */
