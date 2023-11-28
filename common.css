@@ -128,10 +128,15 @@ h6{
 }
 
 
-h7{
+
+/* h7{
     font-family: var(--typography--header);
     font-weight: 200;
     opacity: 3%;
+} */
+
+h7{
+    display: none;
 }
 
 
