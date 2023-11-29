@@ -27,6 +27,7 @@
     font-size: calc(1.2*var(--font-size)); 
 }
 
+
 /* Landing Page Hover Effect on Three Title */
 span{
     font-family: 'Raleway Dots', sans-serif;
@@ -56,6 +57,59 @@ span{
     bottom: 13rem;
     right: -10.5rem;
     margin-bottom: 10px;
+}
+
+
+/* Article 2 linked Page */
+.link{
+    text-decoration: underline;
+}
+
+.link:hover{
+    color: red;
+}
+
+li{
+    font-family: var(--font-display);
+    line-height: var(--baseline);
+    font-size: var(--font-size);
+    margin-bottom: var(--spacing);
+    font-weight: 300;
+}
+
+ol{
+    padding-bottom: calc(1.5*var(--spacing));
+}
+
+ol li {
+    list-style: decimal;
+    list-style-position: inside;
+}
+
+
+/* Information Page */
+.information{
+    margin-top: calc(var(--scale)*var(--spacing));
+    margin-left: calc(0.7*var(--spacing));
+    font-family: var(--font-display);
+}
+
+.introduction{
+    margin-bottom: calc(2.4*var(--spacing));
+}
+
+h8,h9{
+    font-family: var(--font-display);
+    font-size: var(--font-size);
+}
+
+.contact{
+    margin-top: var(--spacing);
+    margin-bottom: calc(2.4*var(--spacing));    
+}
+
+.response{
+    margin-top: var(--spacing);
 }
 
 
@@ -248,3 +302,4 @@ h7{
     }
 
 }
+
